@@ -1,0 +1,49 @@
+.App {
+  display: flex;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 33%;
+}
+
+.tank-table {
+  border-collapse: collapse;
+  margin-bottom: 20px; /* espacio entre las tablas */
+}
+
+th,
+td {
+  border: 1px solid black;
+  width: 30px;
+  height: 15px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2; /* color de fondo para las cabeceras */
+  font-weight: bold;
+}
+
+.page {
+  width: 21.59cm;
+  height: 27.94cm;
+  margin: 0 auto;
+  padding: 1cm;
+  box-sizing: border-box;
+  page-break-after: always;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.page.horizontal {
+  width: 27.94cm;
+  height: 21.59cm;
+}
+
+.page.vertical {
+  width: 21.59cm;
+  height: 27.94cm;
+}
